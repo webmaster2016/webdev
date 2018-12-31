@@ -14,7 +14,7 @@ h1 {
 
 .column1,.column2,.column3{
 	width: 31.3%;
-	max-height:14em;
+	height:240px;
 	float:left;
 	margin: 1%;
 	border-style: solid;
@@ -44,7 +44,7 @@ h1 {
 	
 	background-color: #efefef;
 	}
-p.content {
+.column1,.column2,.column3 {
     overflow: hidden;
 	}
 
