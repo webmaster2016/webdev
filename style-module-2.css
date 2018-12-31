@@ -40,7 +40,7 @@ h1 {
 	}
 
 .article{
-	
+	max-height:14em;
 	background-color: #efefef;
 	}
 p.content {
