@@ -5,12 +5,12 @@
 }
 
 h1 {
-	font-family: Brushstroke, fantasy;
-	color: #021C1E;
+	font-family:  Arial, sans-serif;
+	margin-top:14px;
 }
 
 body {
-	background-color: white;
+	background-color: #adb5bd;
 
 }
 
@@ -19,7 +19,8 @@ p {
 	margin: 0;
 }
 
-.container {
+.container-fluid {
+
 	border: none;
 	margin-left: auto;
 	margin-right: auto;
@@ -29,7 +30,7 @@ p {
 }
 
 section {
-	background-color: #90AFC5;
+	background-color: #f8f9fa;
 	height: auto;
 	font-family: Helvetica;
 	color: black;
@@ -86,28 +87,23 @@ section {
 }
 
 .navbar-brand {
-  font-size: 2em;
+  font-size: 4em;
   border: 0 0 10px 10px;
-  color: #1F0FF9;
 }
 
 #header-nav {
   border: 0;
-  background-color: #0099CC;
-  color: #FAFF20;
 }
 
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+.navbar-header button.navbar-toggle{
   border: 1px solid #61122f;
 }
+
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
   margin-bottom: 10px;
-}
-
-.nav-header {
-  background-color: #FFFFFF;
+  color:white;
 }
 
 .nav-brand {
@@ -120,14 +116,9 @@ section {
   color: white;
 }
 
-
 hr {
   border-color: white;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-.item {
-  color: white;
-  font-size: 1.2em;
-}
